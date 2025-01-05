@@ -36,7 +36,7 @@ function SearchResult() {
             const config = {
                 method: "post",
                 maxBodyLength: Infinity,
-                url: "http://localhost:4000/api/searchResult",
+                url: "https://demo-backend-qlhj.onrender.com/api/searchResult",
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -81,7 +81,7 @@ function SearchResult() {
             const config = {
                 method: "post",
                 maxBodyLength: Infinity,
-                url: "http://localhost:4000/api/getCoworkingSpaces",
+                url: "https://demo-backend-qlhj.onrender.com/api/getCoworkingSpaces",
                 headers: {
                     "Content-Type": "application/json",
                 },
