@@ -67,7 +67,7 @@ function Search() {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://localhost:4000/api/searchResult',
+            url: 'https://demo-backend-qlhj.onrender.com/api/searchResult',
             headers: { 
               'Content-Type': 'application/json'
             },
